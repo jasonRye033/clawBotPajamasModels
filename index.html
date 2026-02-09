@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>超模脸部素材库 - 项目预览</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #121212; color: #e0e0e0; padding: 20px; line-height: 1.6; margin: 0; }
+        .section-title { margin-top: 50px; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 30px; font-weight: 300; }
+        .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
+        .card { background: #1e1e1e; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.5); border: 1px solid #333; cursor: pointer; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); border-color: #bb86fc; }
+        .card img { width: 100%; height: auto; display: block; background: #252525; }
+        .info { padding: 20px; }
+        .prompt-preview { font-size: 12px; color: #888; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 10px; }
+        h1 { text-align: center; color: #fff; margin-bottom: 40px; font-weight: 300; letter-spacing: 2px; }
+        strong { color: #bb86fc; font-size: 14px; text-transform: uppercase; }
+
+        /* Modal Styles */
+        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 1000; overflow-y: auto; padding: 40px; box-sizing: border-box; }
+        .modal-content { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .modal-body { display: flex; gap: 30px; flex-wrap: wrap; }
+        .modal-image-container { flex: 1; min-width: 300px; }
+        .modal-image-container img { width: 100%; border-radius: 8px; border: 1px solid #444; }
+        .modal-info { flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px; }
+        .info-block { background: #252525; padding: 15px; border-radius: 8px; border-left: 4px solid #bb86fc; }
+        .info-label { font-size: 12px; color: #bb86fc; text-transform: uppercase; margin-bottom: 8px; font-weight: bold; }
+        .info-value { font-family: 'Consolas', monospace; font-size: 14px; color: #ddd; word-break: break-all; }
+        .ref-images { display: flex; gap: 10px; margin-top: 10px; }
+        .ref-images img { width: 80px; height: 80px; object-fit: cover; border-radius: 4px; border: 1px solid #555; }
+        .close-btn { color: #fff; font-size: 30px; cursor: pointer; line-height: 1; }
+    </style>
+</head>
+<body>
+    <h1>欧美女超模脸部素材库</h1>
+    
+    <h2 class="section-title">✨ 模特脸部 (Faces - 1:1)</h2>
+    <div class="container">
+        <div class="card" onclick="openModal('Model 5 (French) Square', 'images/model_face_5_square.png', 'Close-up portrait of the French supermodel, 1:1 ratio.')">
+            <img src="images/model_face_5_square.png"><div class="info"><strong>Model 5 (Square)</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 6 (Young Blonde)', 'images/model_face_6_new.png', 'Close-up portrait of 25yo European supermodel, 1:1.')">
+            <img src="images/model_face_6_new.png"><div class="info"><strong>Model 6 (Age 25)</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 7 (Young Scandinavian)', 'images/model_face_7_new.png', 'Close-up portrait of 22yo Scandinavian supermodel, 1:1.')">
+            <img src="images/model_face_7_new.png"><div class="info"><strong>Model 7 (Age 22)</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 8 (Young Eastern European)', 'images/model_face_8_new.png', 'Close-up portrait of 24yo Eastern European supermodel, 1:1.')">
+            <img src="images/model_face_8_new.png"><div class="info"><strong>Model 8 (Age 24)</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 9 (Young British)', 'images/model_face_9_new.png', 'Close-up portrait of 26yo British supermodel, 1:1.')">
+            <img src="images/model_face_9_new.png"><div class="info"><strong>Model 9 (Age 26)</strong></div>
+        </div>
+    </div>
+
+    <h2 class="section-title">📸 顶级质感拍摄场景 (High-end Scenes)</h2>
+    <div class="container">
+        <div class="card" onclick="openModal('Luxury Beige', 'images/scene_luxury_beige_empty.png', 'Luxury warm beige plaster wall, 9:16')">
+            <img src="images/scene_luxury_beige_empty.png"><div class="info"><strong>Luxury Beige</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Sage Green', 'images/scene_sage_empty.png', 'Luxury soft sage green plaster wall, 9:16')">
+            <img src="images/scene_sage_empty.png"><div class="info"><strong>Sage Green</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Muted Clay', 'images/scene_clay_minimal.png', 'Empty premium fashion set, soft muted clay wall, 9:16')">
+            <img src="images/scene_clay_minimal.png"><div class="info"><strong>Muted Clay</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Cool Gray', 'images/scene_cool_gray_empty.png', 'Sophisticated studio background, soft cool gray plaster wall, 9:16')">
+            <img src="images/scene_cool_gray_empty.png"><div class="info"><strong>Cool Gray</strong></div>
+        </div>
+    </div>
+
+    <h2 class="section-title">👗 服装上身效果 (Lookbook V4 - High Detail)</h2>
+    <div class="container" id="lookbook">
+        <div class="card" onclick="openModal('Model 5 - Beige V4', 'images/model_5_detail_V4.png', 'EXTREME DETAIL: Crisp cat/heart embroidery. Warm architectural shadows. Subsurface scattering.', ['images/model_face_5_square.png', 'clothing/pyjamas_full.jpg', 'clothing/pyjamas_detail.jpg', 'images/scene_luxury_beige_empty.png'])">
+            <img src="images/model_5_detail_V4.png"><div class="info"><strong>Model 5 - Beige V4</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 6 - Sage V4', 'images/model_6_detail_V4.png', 'EXTREME DETAIL: Focus on pocket embroidery sharpness. Soft diffused lighting. Natural color bleed.', ['images/model_face_6_new.png', 'clothing/pyjamas_full.jpg', 'clothing/pyjamas_detail.jpg', 'images/scene_sage_empty.png'])">
+            <img src="images/model_6_detail_V4.png"><div class="info"><strong>Model 6 - Sage V4</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 7 - Clay V4', 'images/model_7_detail_V4.png', 'EXTREME DETAIL: Sharp pocket detail. Window shadows wrapping around body.', ['images/model_face_7_new.png', 'clothing/pyjamas_full.jpg', 'clothing/pyjamas_detail.jpg', 'images/scene_clay_minimal.png'])">
+            <img src="images/model_7_detail_V4.png"><div class="info"><strong>Model 7 - Clay V4</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 8 - Gray V4', 'images/model_8_detail_V4.png', 'EXTREME DETAIL: Perfectly rendered black cat embroidery. Shadows wrap naturally around curves. 9:16 vertical.', ['images/model_face_8_new.png', 'clothing/pyjamas_full.jpg', 'clothing/pyjamas_detail.jpg', 'images/scene_cool_gray_empty.png'])">
+            <img src="images/model_8_detail_V4.png"><div class="info"><strong>Model 8 - Gray V4</strong></div>
+        </div>
+        <div class="card" onclick="openModal('Model 9 - Beige V4', 'images/model_9_detail_V4.png', 'EXTREME DETAIL: Razor sharp cat logo. Intricate light/shadow play on striped fabric.', ['images/model_face_9_new.png', 'clothing/pyjamas_full.jpg', 'clothing/pyjamas_detail.jpg', 'images/scene_luxury_beige_empty.png'])">
+            <img src="images/model_9_detail_V4.png"><div class="info"><strong>Model 9 - Beige V4</strong></div>
+        </div>
+    </div>
+
+    <div id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" style="margin:0; font-weight:300;"></h2>
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container"><img id="modal-img" src=""></div>
+                <div class="modal-info">
+                    <div class="info-block">
+                        <div class="info-label">Prompt / 提示词</div>
+                        <div id="modal-prompt" class="info-value"></div>
+                    </div>
+                    <div id="ref-container" class="info-block" style="display:none;">
+                        <div class="info-label">Reference Images / 引用图片</div>
+                        <div id="modal-refs" class="ref-images"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(title, img, prompt, refs = []) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-img').src = img;
+            document.getElementById('modal-prompt').innerText = prompt;
+            const refContainer = document.getElementById('ref-container');
+            const refsDiv = document.getElementById('modal-refs');
+            refsDiv.innerHTML = '';
+            if (refs.length > 0) {
+                refContainer.style.display = 'block';
+                refs.forEach(r => {
+                    const i = document.createElement('img');
+                    i.src = r;
+                    refsDiv.appendChild(i);
+                });
+            } else {
+                refContainer.style.display = 'none';
+            }
+            document.getElementById('modal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('modal')) closeModal();
+        }
+    </script>
+</body>
+</html>
