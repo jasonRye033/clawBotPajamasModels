@@ -1,0 +1,224 @@
+{
+  "images": {
+    "model_5_detail_V4.png": {
+      "prompt": "EXTREME DETAIL: Crisp cat/heart embroidery. Warm architectural shadows. Subsurface scattering.",
+      "references": [
+        "images/model_face_5_square.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_luxury_beige_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-09"
+    },
+    "model_5_gray_new.png": {
+      "prompt": "EXTREME DETAIL: Crisp black cat embroidery, soft striped fabric texture. EXTREME REALISM: Shadows wrap naturally, Light Wrap, Penumbra, subsurface scattering.",
+      "references": [
+        "images/model_face_5_square.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_cool_gray_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-10"
+    },
+    "model_5_sage_new.png": {
+      "prompt": "High-end fashion editorial, French supermodel with brown wavy hair in Sage Green luxury studio. EXTREME DETAIL: Crisp black cat embroidery on pocket, soft striped fabric texture. EXTREME REALISM: Soft diffused lighting, light wrap around shoulders, natural skin subsurface scattering. 9:16 vertical, 8k.",
+      "references": [
+        "images/model_face_5_square.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_sage_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-12"
+    },
+    "model_5_stoic_look.png": {
+      "prompt": "Fashion lookbook, model 5 in pyjamas, standing pose.",
+      "references": [
+        "images/model_face_5_square.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V1",
+      "date_generated": "2026-02-09"
+    },
+    "model_5_stoic_look_V3.png": {
+      "prompt": "Fashion lookbook, model 5 in pyjamas, standing pose, enhanced realism V3.",
+      "references": [
+        "images/model_face_5_square.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V3",
+      "date_generated": "2026-02-09"
+    },
+    "model_6_detail_V4.png": {
+      "prompt": "EXTREME DETAIL: Focus on pocket embroidery sharpness. Soft diffused lighting. Natural color bleed.",
+      "references": [
+        "images/model_face_6_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_sage_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-09"
+    },
+    "model_6_gray_new.png": {
+      "prompt": "High-end fashion editorial, Blonde supermodel in Cool Gray sophisticated studio. EXTREME DETAIL: Sharp embroidery stitching, realistic fabric folds. EXTREME REALISM: Cool daylight, soft shadows, penumbra effects. 9:16 vertical, 8k.",
+      "references": [
+        "images/model_face_6_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_cool_gray_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-12"
+    },
+    "model_6_sage_look.png": {
+      "prompt": "Fashion lookbook, model 6 in pyjamas, standing pose.",
+      "references": [
+        "images/model_face_6_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V1",
+      "date_generated": "2026-02-09"
+    },
+    "model_6_sage_look_V3.png": {
+      "prompt": "Fashion lookbook, model 6 in pyjamas, standing pose, enhanced realism V3.",
+      "references": [
+        "images/model_face_6_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V3",
+      "date_generated": "2026-02-09"
+    },
+    "model_7_beige_new.png": {
+      "prompt": "High-end fashion editorial, Redhead Scandinavian supermodel in Luxury Beige warm studio. EXTREME DETAIL: Intricate embroidery texture, natural draping. EXTREME REALISM: Warm architectural shadows, sun-kissed skin tone, ambient occlusion. 9:16 vertical, 8k.",
+      "references": [
+        "images/model_face_7_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_luxury_beige_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-12"
+    },
+    "model_7_clay_look.png": {
+      "prompt": "Fashion lookbook, model 7 in pyjamas, standing pose.",
+      "references": [
+        "images/model_face_7_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V1",
+      "date_generated": "2026-02-09"
+    },
+    "model_7_clay_look_V3.png": {
+      "prompt": "Fashion lookbook, model 7 in pyjamas, standing pose, enhanced realism V3.",
+      "references": [
+        "images/model_face_7_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V3",
+      "date_generated": "2026-02-09"
+    },
+    "model_7_detail_V4.png": {
+      "prompt": "EXTREME DETAIL: Sharp pocket detail. Window shadows wrapping around body.",
+      "references": [
+        "images/model_face_7_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_clay_minimal.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-09"
+    },
+    "model_8_clay_new.png": {
+      "prompt": "High-end fashion editorial, Eastern European supermodel with dark hair in Muted Clay minimal studio. EXTREME DETAIL: High contrast embroidery, tactile fabric weave. EXTREME REALISM: Earthy tones, soft contact shadows, depth of field. 9:16 vertical, 8k.",
+      "references": [
+        "images/model_face_8_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_clay_minimal.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-12"
+    },
+    "model_8_detail_V4.png": {
+      "prompt": "EXTREME DETAIL: Perfectly rendered black cat embroidery. Shadows wrap naturally around curves. 9:16 vertical.",
+      "references": [
+        "images/model_face_8_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_cool_gray_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-09"
+    },
+    "model_8_gray_look.png": {
+      "prompt": "Fashion lookbook, model 8 in pyjamas, standing pose.",
+      "references": [
+        "images/model_face_8_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V1",
+      "date_generated": "2026-02-09"
+    },
+    "model_8_gray_look_V2.png": {
+      "prompt": "Fashion lookbook, model 8 in pyjamas, standing pose, enhanced realism V2.",
+      "references": [
+        "images/model_face_8_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V2",
+      "date_generated": "2026-02-09"
+    },
+    "model_8_gray_look_V3.png": {
+      "prompt": "Fashion lookbook, model 8 in pyjamas, standing pose, enhanced realism V3.",
+      "references": [
+        "images/model_face_8_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V3",
+      "date_generated": "2026-02-09"
+    },
+    "model_9_beige_look.png": {
+      "prompt": "Fashion lookbook, model 9 in pyjamas, standing pose.",
+      "references": [
+        "images/model_face_9_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V1",
+      "date_generated": "2026-02-09"
+    },
+    "model_9_beige_look_V3.png": {
+      "prompt": "Fashion lookbook, model 9 in pyjamas, standing pose, enhanced realism V3.",
+      "references": [
+        "images/model_face_9_new.png",
+        "clothing/pyjamas_full.jpg"
+      ],
+      "version": "V3",
+      "date_generated": "2026-02-09"
+    },
+    "model_9_detail_V4.png": {
+      "prompt": "EXTREME DETAIL: Razor sharp cat logo. Intricate light/shadow play on striped fabric.",
+      "references": [
+        "images/model_face_9_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_luxury_beige_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-09"
+    },
+    "model_9_gray_new.png": {
+      "prompt": "High-end fashion editorial, British supermodel with curly hair in Cool Gray studio. EXTREME DETAIL: Clear logo stitching, premium cotton texture. EXTREME REALISM: Moody lighting, dramatic shadows, realistic hair rendering. 9:16 vertical, 8k.",
+      "references": [
+        "images/model_face_9_new.png",
+        "clothing/pyjamas_full.jpg",
+        "clothing/pyjamas_detail.jpg",
+        "images/scene_cool_gray_empty.png"
+      ],
+      "version": "V4",
+      "date_generated": "2026-02-12"
+    }
+  }
+}
